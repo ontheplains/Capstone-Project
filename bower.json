@@ -1,0 +1,30 @@
+{
+  "name": "capstone",
+  "description": "MEAN stack application for capstone project - DevMountain Cohort 10 SLC",
+  "main": "index.js",
+  "authors": [
+    "Justin Caldwell"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Javascript",
+    "Mongo",
+    "Express",
+    "Angular",
+    "Node"
+  ],
+  "homepage": "https://github.com/ontheplains/Capstone-Project",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "bootstrap": "^3.3.7"
+  }
+}

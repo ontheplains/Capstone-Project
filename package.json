@@ -1,0 +1,26 @@
+{
+  "name": "capstone",
+  "version": "1.0.0",
+  "description": "MEAN stack application for capstone project - DevMountain Cohort 10 SLC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ontheplains/Capstone-Project.git"
+  },
+  "keywords": [
+    "Javascript",
+    "Mongo",
+    "Express",
+    "Angular",
+    "Node"
+  ],
+  "author": "Justin Caldwell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ontheplains/Capstone-Project/issues"
+  },
+  "homepage": "https://github.com/ontheplains/Capstone-Project#readme"
+}

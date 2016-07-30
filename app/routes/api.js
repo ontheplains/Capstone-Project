@@ -16,12 +16,18 @@ var auth = jwt({
 var profileCtrl = require('../controllers/profile');
 var authCtrl = require('../controllers/authentication');
 
-//Routes
+// Routes
 
-// profile
+// Profile
 router.get('/profile', auth, profileCtrl.read);
 
-// authentication
+// Product
+router.post('/quote', productCtrl.create);
+router.get('/quote/:quoteId', productCtrl.read);
+router.put('/quote/:quoteId', productCtrl.update);
+router.delete('/quote/:quoteId', productCtrl.delete);
+
+// Authentication
 router.post('/register', authCtrl.register);
 router.post('/login', authCtrl.login);
 
